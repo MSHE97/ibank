@@ -6,6 +6,7 @@ import (
 
 func Issue() types.Card {
 	return types.Card{
+		Activity: types.Active,
 		Balance:  0,
 		Currency: types.Currency("TJS"),
 	}
