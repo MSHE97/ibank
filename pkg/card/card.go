@@ -11,7 +11,6 @@ func Issue() types.Card {
 	}
 }
 
-func Withdraw(card types.Card) types.Card {
+func Withdraw(card *types.Card) {
 	card.Balance -= 100
-	return card
 }
